@@ -19,7 +19,5 @@ A responsive web application to set and manage alarms and reminders using HTML, 
 - 🎨 Simple, user-friendly interface
 - 💻 Pure HTML, CSS, and JavaScript (no frameworks)
 
----
 
-## 📁 Project Structure
 
