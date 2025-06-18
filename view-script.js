@@ -31,3 +31,19 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 });
+// Clear button functionality
+const clearButton = document.getElementById("clearButton");
+if (clearButton) {
+    clearButton.addEventListener("click", function () {
+        if (confirm("Are you sure you want to delete all alarms and reminders?")) {
+            localStorage.removeItem("alarms");
+            localStorage.removeItem("reminders");
+
+            alarmList.innerHTML = "<p class='text-center text-muted'>No alarms set.</p>";
+            reminderList.innerHTML = "<p class='text-center text-muted'>No reminders set.</p>";
+
+            alert("All alarms and reminders have been cleared.");
+        }
+    });
+}
+
