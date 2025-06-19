@@ -1,0 +1,52 @@
+body {
+    background-color: #fef9e7;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background: linear-gradient(135deg, #ffc107, #ffd54f);
+    color: #343a40;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.buzzify-title {
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 2px 2px #fff8e1;
+}
+
+.buzzify-subtitle {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.card {
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    font-weight: bold;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background: #fffbea;
+    border-top: 1px solid #ffc107;
+    color: #6c757d;
+}
+
+footer p {
+    font-size: 0.9rem;
+    font-weight: 400;
+}
